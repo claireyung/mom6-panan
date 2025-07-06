@@ -81,3 +81,6 @@
 	make_exchange_reproduce = .false.,
 	interp_method = 'second_order'
 /
+&diag_manager_nml
+    flush_nc_files = .true. /
+
