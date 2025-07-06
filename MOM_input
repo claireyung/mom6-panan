@@ -36,13 +36,13 @@ WRITE_GEOM = 0
 RESTART_CHECKSUMS_REQUIRED = False
 
 ! === module MOM_domains ===
-NIGLOBAL = 3600
-NJGLOBAL = 845
+NIGLOBAL = 4320
+NJGLOBAL = 1442
 
-LAYOUT = 72,17
+LAYOUT = 63, 43
 IO_LAYOUT = 1,1
 
-MASKTABLE = "masks/mask_table.262.72x17"
+MASKTABLE = "mask_table.931.63x43"
 
 ! === module MOM_verticalGrid ===
 NK = 75
@@ -52,9 +52,9 @@ INPUTDIR = "INPUT"
 
 ! === module MOM_grid_init ===
 GRID_CONFIG = "mosaic"
-GRID_FILE = "ocean_hgrid.nc"
+GRID_FILE = "ocean_hgrid_cropped.nc"
 TOPO_CONFIG = "file"
-TOPO_FILE = "ocean_topog.nc"
+TOPO_FILE = "topog_Charrassin_opencavity_cropped_mindepth5.nc"
 
 MINIMUM_DEPTH = 9.5
 MAXIMUM_DEPTH = 6000.0

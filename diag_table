@@ -13,6 +13,24 @@ panan
 "ice_daily",                    1, "days",   1, "days", "time"
 "ice_month",                    1, "months", 1, "days", "time"
 
+"ice",          0,"days", 1, "days", "time"
+"ice_shelf_model","area_shelf_h","area_shelf_h","ice","all",.false.,"none",2
+"ice_shelf_model","shelf_mass","shelf_mass","ice","all",.false.,"none",2
+"ice_shelf_model","h_shelf","h_shelf","ice","all",.false.,"none",2
+"ice_shelf_model","mass_flux","mass_flux","ice","all",.false.,"none",2
+"ice_shelf_model","melt","melt_rate","ice","all",.false.,"none",2
+"ice_shelf_model","thermal_driving","thermal_driving","ice","all",.false.,"none",2
+"ice_shelf_model","haline_driving","haline_driving","ice","all",.false.,"none",2
+"ice_shelf_model","sbdry","sbdry","ice","all",.false.,"none",2
+"ice_shelf_model","u_ml","u_ml","ice","all",.false.,"none",2
+"ice_shelf_model","v_ml","v_ml","ice","all",.false.,"none",2
+"ice_shelf_model","exch_vel_s","exch_vel_s","ice","all",.false.,"none",2
+"ice_shelf_model","exch_vel_t","exch_vel_t","ice","all",.false.,"none",2
+"ice_shelf_model","tfreeze","tfreeze","ice","all",.false.,"none",2
+"ice_shelf_model","tflux_shelf","tflux_shelf","ice","all",.false.,"none",2
+"ice_shelf_model","ustar_shelf","ustar_shelf","ice","all",.false.,"none",2
+
+
 # Ocean grid-cell volume
 "ocean_model_z", "volcello",     "volcello",         "ocean_month_z",       "all", "mean", "none",2
 "ocean_model_rho2", "volcello",  "volcello",         "ocean_month_rho2",    "all", "mean", "none",2

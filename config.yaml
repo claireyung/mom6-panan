@@ -1,9 +1,11 @@
 # change to your project with compute time available
-project: g40
+project: x77
 queue: normal
-walltime: 06:00:00
-jobname: mom6_panan_01
-ncpus: 962
+walltime: 01:00:00
+jobname: mom6_panan_12
+#ncpus: 962
+#jobfs: 10GB
+ncpus: 1778
 jobfs: 10GB
 
 # change to a project you have access to
@@ -11,7 +13,7 @@ jobfs: 10GB
 
 model: mom6
 input:
-    - /g/data/ik11/inputs/mom6/panan-01/
+    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/
     - /g/data/ik11/inputs/mom6/regrid_runoff/
     - /g/data/ik11/inputs/JRA-55/RYF/v1-3/
 exe: /g/data/ik11/inputs/mom6/bin/symmetric_FMS2-e7d09b7
@@ -21,6 +23,7 @@ runlog: true
 storage:
   gdata:
     - ik11
+    - x77
 
 platform:
   nodesize: 48

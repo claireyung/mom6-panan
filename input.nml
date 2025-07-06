@@ -3,7 +3,7 @@
 	input_filename = 'n',
 	restart_input_dir = 'INPUT',
 	restart_output_dir = 'RESTART',
-	parameter_filename = 'MOM_input'
+	parameter_filename = 'MOM_input', 'MOM_override', 'MOM_override_newparams', 'MOM_override_IS'
 /
 
 &SIS_input_nml
@@ -27,8 +27,8 @@
 /
 
 &coupler_nml
-	months = 3,
-	days = 0,
+	months = 0,
+	days = 1,
 	hours = 0,
 	current_date = 1991,1,1,0,0,0,
 	calendar = 'NOLEAP',

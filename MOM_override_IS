@@ -1,0 +1,74 @@
+ICE_SHELF = True
+SHELF_INSULATOR = False
+SHELF_THERMO = True
+ICE_SHELF_TEMPERATURE = -20.0
+DENSITY_ICE = 917.
+USTAR_SHELF_BG = 0.001
+ICE_PROFILE_CONFIG = "FILE"
+ICE_THICKNESS_FILE = "ice_thickness_Charrassin_regridded_cropped_add_area.nc"
+ICE_THICKNESS_VARNAME = "thick"
+ICE_AREA_VARNAME = "area"
+#override TRIM_IC_FOR_P_SURF = True
+#override COL_THICK_MELT_THRESHOLD = 1e-3
+#override MIN_THICKNESS = 1.e-12
+!#override ANGSTROM = 1.e-15
+SURFACE_PRESSURE_FILE = "ice_thickness_Charrassin_regridded_cropped_add_area.nc"
+SURFACE_PRESSURE_VAR = "thick"
+SURFACE_PRESSURE_SCALE = 8986.6
+
+!#override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"
+
+! Recommended pressure gradient ice shelf fixes
+#override MASS_WEIGHT_IN_PRESSURE_GRADIENT_TOP = True
+#override RESET_INTXPA_INTEGRAL = True
+#override ISOLATE_MASS_WEIGHT_PGF = True
+#override MASS_WEIGHT_IN_PGF_VANISHED_ONLY = True
+
+! Recommended to fix remapping and initialisation
+#override INIT_BOUNDARY_EXTRAP = True
+#override TRIMMING_USES_REMAPPING = True
+#override TRIM_IC_Z_TOLERANCE = 1.0E-10
+#override REMAPPING_USE_OM4_SUBCELLS = False 
+! Add drag (can increases time before crashing but not always, depending on other parameters)
+#override LINEAR_DRAG = True
+#override DRAG_BG_VEL = 0.05
+
+#override DEBUG = True
+#override DEBUG_IS = True
+#override VERBOSITY = 9
+
+! init ice shelf bugfix nonlineos
+#override FRAC_DP_AT_POS_NEGATIVE_P_BUGFIX = True
+
+!Turn on layer mode
+#override USE_REGRIDDING = False
+#override ENERGETICS_SFC_PBL = False
+!!#override BULKMIXEDLAYER = False
+!!#override MIXEDLAYER_RESTRAT = False
+
+#override BULKMIXEDLAYER = True
+!!#override BULK_RI_ML = 0.25
+#override MIXEDLAYER_RESTRAT = True
+#override HMIX_MIN = 10.0
+!!#override KV_TBL_MIN = 1.0E-2
+!!#override HTBL_SHELF_MIN = 10.0
+!!#override BOUND_SALINITY = True
+
+
+!!#override ICE_SHELF_SALT_FLUX_ITT_BUG = False
+#override SHELF_S_ROOT = True
+!!ICE_SHELF_BUOYANCY_FLUX_ITT_BUG = False
+
+!try to match Olga's
+#override MASKING_DEPTH = 0.0
+#override EOS_QUADRATURE = True
+#override FIXED_DEPTH_LOTW_ML = True
+#override LOTW_VISCOUS_ML_FLOOR = True
+#override BULK_RI_ML = 0.05
+#override LIMIT_BUFFER_DETRAIN = True
+#override REGULARIZE_SURFACE_LAYERS = True 
+#override COORD_CONFIG = "file"
+#override COORD_FILE = "Vertical_coordinate_75.nc"
+!!#override NK = 63
+#override ADJUST_THICKNESS = True
+!!#override REGRIDDING_COORDINATE_MODE = "LAYER"
