@@ -50,3 +50,4 @@ SPONGE = False
 
 !save time for restart runs
 !#override SAVE_INITIAL_CONDS = False
+#override SAVE_INITIAL_CONDS = True
