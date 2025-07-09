@@ -42,34 +42,36 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override FRAC_DP_AT_POS_NEGATIVE_P_BUGFIX = True
 
 !Turn on layer mode
-!#override USE_REGRIDDING = False
-!#override ENERGETICS_SFC_PBL = False
+#override USE_REGRIDDING = False
+#override ENERGETICS_SFC_PBL = False
 !!#override BULKMIXEDLAYER = False
 !!#override MIXEDLAYER_RESTRAT = False
 
-!#override BULKMIXEDLAYER = True
+#override BULKMIXEDLAYER = True
 !!#override BULK_RI_ML = 0.25
-!#override MIXEDLAYER_RESTRAT = True
-!#override HMIX_MIN = 10.0
+#override MIXEDLAYER_RESTRAT = True
+#override HMIX_MIN = 10.0
 !!#override KV_TBL_MIN = 1.0E-2
 !!#override HTBL_SHELF_MIN = 10.0
 !!#override BOUND_SALINITY = True
 
 
 !!#override ICE_SHELF_SALT_FLUX_ITT_BUG = False
-!#override SHELF_S_ROOT = True
+#override SHELF_S_ROOT = True
 !!ICE_SHELF_BUOYANCY_FLUX_ITT_BUG = False
 
 !try to match Olga's
-!#override MASKING_DEPTH = 0.0
-!#override EOS_QUADRATURE = True
-!#override FIXED_DEPTH_LOTW_ML = True
-!#override LOTW_VISCOUS_ML_FLOOR = True
-!#override BULK_RI_ML = 0.05
-!#override LIMIT_BUFFER_DETRAIN = True
-!#override REGULARIZE_SURFACE_LAYERS = True 
-!#override COORD_CONFIG = "file"
-!#override COORD_FILE = "Vertical_coordinate_75.nc"
-!!!#override NK = 63
-!#override ADJUST_THICKNESS = True
-!!!#override REGRIDDING_COORDINATE_MODE = "LAYER"
+#override MASKING_DEPTH = 0.0
+#override EOS_QUADRATURE = True
+#override FIXED_DEPTH_LOTW_ML = True
+#override LOTW_VISCOUS_ML_FLOOR = True
+#override BULK_RI_ML = 0.05
+#override LIMIT_BUFFER_DETRAIN = True
+#override REGULARIZE_SURFACE_LAYERS = True 
+#override COORD_CONFIG = "file"
+#override COORD_FILE = "Vertical_coordinate_75.nc"
+!!#override NK = 63
+#override ADJUST_THICKNESS = True
+!!#override REGRIDDING_COORDINATE_MODE = "LAYER"
+
+#override HARMONIC_VISC = True 
