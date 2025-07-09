@@ -23,6 +23,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override RESET_INTXPA_INTEGRAL = True
 #override ISOLATE_MASS_WEIGHT_PGF = True
 #override MASS_WEIGHT_IN_PGF_VANISHED_ONLY = True
+#override HARMONIC_BL_SCALE = 1
 
 ! Recommended to fix remapping and initialisation
 #override INIT_BOUNDARY_EXTRAP = True
