@@ -31,10 +31,10 @@ panan
 "ice_shelf_model","ustar_shelf","ustar_shelf","ice","all",.false.,"none",2
 
 "prog",          0,"days", 1, "days", "time"
-"ocean_model","u","u","prog","all",.false.,"none",1
-"ocean_model","v","v","prog","all",.false.,"none",1
-"ocean_model","h","h","prog","all",.false.,"none",1
-"ocean_model","e","e","prog","all",.false.,"none",1
+"ocean_model","u","u","prog","all",.false.,"none",2
+"ocean_model","v","v","prog","all",.false.,"none",2
+"ocean_model","h","h","prog","all",.false.,"none",2
+"ocean_model","e","e","prog","all",.false.,"none",2
 "ocean_model","temp","temp","prog","all",.false.,"none",2
 "ocean_model","salt","salt","prog","all",.false.,"none",2
 
