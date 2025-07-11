@@ -15,7 +15,7 @@
 /
 
 &fms_nml
-	domains_stack_size = 1600000,
+	domains_stack_size = 2000000, 
 	stack_size = 0,
 	clock_grain = 'LOOP'
 /
