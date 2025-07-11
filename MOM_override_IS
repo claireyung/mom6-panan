@@ -76,3 +76,4 @@ SURFACE_PRESSURE_SCALE = 8986.6
 
 #override HARMONIC_VISC = True 
 #override DT_FORCING = 10
+#override DTBT_RESET_PERIOD = 10
