@@ -13,6 +13,8 @@ panan
 "ice_daily",                    1, "days",   1, "days", "time"
 "ice_month",                    1, "months", 1, "days", "time"
 
+
+"prog",          0,"days", 1, "days", "time"
 "ice",          0,"days", 1, "days", "time"
 "ice_shelf_model","area_shelf_h","area_shelf_h","ice","all",.false.,"none",2
 "ice_shelf_model","shelf_mass","shelf_mass","ice","all",.false.,"none",2
@@ -30,7 +32,6 @@ panan
 "ice_shelf_model","tflux_shelf","tflux_shelf","ice","all",.false.,"none",2
 "ice_shelf_model","ustar_shelf","ustar_shelf","ice","all",.false.,"none",2
 
-"prog",          0,"days", 1, "days", "time"
 "ocean_model","u","u","prog","all",.false.,"none",2
 "ocean_model","v","v","prog","all",.false.,"none",2
 "ocean_model","h","h","prog","all",.false.,"none",2
