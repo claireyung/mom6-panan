@@ -34,9 +34,9 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override LINEAR_DRAG = True
 #override DRAG_BG_VEL = 0.05
 
-#override DEBUG = True
-#override DEBUG_IS = True
-#override VERBOSITY = 9
+!#override DEBUG = True
+!#override DEBUG_IS = True
+!#override VERBOSITY = 9
 
 ! init ice shelf bugfix nonlineos
 #override FRAC_DP_AT_POS_NEGATIVE_P_BUGFIX = True
