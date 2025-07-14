@@ -377,6 +377,11 @@ work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area.nc:
   hashes:
     binhash: 13413116fd8bffe4f2d92b65da88e9fe
     md5: 0fb53d13950e6a279e95192f444e68b0
+work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area2.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area2.nc
+  hashes:
+    binhash: 379bcfd3a3c8a020e315213cee99e35f
+    md5: 12ead923caff180878c31bd0e9fdb01d
 work/INPUT/kmt_Charrassin_nocavity_cropped.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/kmt_Charrassin_nocavity_cropped.nc
   hashes:
