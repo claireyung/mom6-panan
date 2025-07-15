@@ -21,7 +21,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 ! Recommended pressure gradient ice shelf fixes
 #override MASS_WEIGHT_IN_PRESSURE_GRADIENT_TOP = True
 #override RESET_INTXPA_INTEGRAL = True
-#override ISOLATE_MASS_WEIGHT_PGF = True
+#override RESET_INTXPA_INTEGRAL_FLATTEST = True
 #override MASS_WEIGHT_IN_PGF_VANISHED_ONLY = True
 #override HARMONIC_BL_SCALE = 1
 
@@ -75,7 +75,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 !!!#override REGRIDDING_COORDINATE_MODE = "LAYER"
 !
 !#override HARMONIC_VISC = True 
-#override DT_FORCING = 450
-#override DTBT_RESET_PERIOD = 450
+#override DT_FORCING = 360
+#override DTBT_RESET_PERIOD = 360
 !
 !#override PRESSURE_RECONSTRUCTION_SCHEME = 0
