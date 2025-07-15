@@ -34,9 +34,9 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override LINEAR_DRAG = True
 #override DRAG_BG_VEL = 0.05
 
-#override DEBUG = True
-#override DEBUG_IS = True
-#override VERBOSITY = 9
+!#override DEBUG = True
+!#override DEBUG_IS = True
+!#override VERBOSITY = 9
 
 ! init ice shelf bugfix nonlineos
 #override FRAC_DP_AT_POS_NEGATIVE_P_BUGFIX = True
@@ -75,7 +75,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 !!!#override REGRIDDING_COORDINATE_MODE = "LAYER"
 !
 !#override HARMONIC_VISC = True 
-!#override DT_FORCING = 180
-!#override DTBT_RESET_PERIOD = 180
+#override DT_FORCING = 450
+#override DTBT_RESET_PERIOD = 450
 !
 !#override PRESSURE_RECONSTRUCTION_SCHEME = 0
