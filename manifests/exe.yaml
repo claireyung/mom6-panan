@@ -1,8 +1,8 @@
 format: yamanifest
 version: 1.0
 ---
-work/MOM6-dbg-e9dbc6c:
-  fullpath: /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-dbg-e9dbc6c
+work/MOM6-aledbg-38a7d55:
+  fullpath: /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-aledbg-38a7d55
   hashes:
-    binhash: 89e71e7435251ea09f365819b9a12267
-    md5: c114ea7ce9c9bf2ebcddd362800aee5a
+    binhash: 06b4182142696aae27cc211513621af9
+    md5: c8064381f3b3e46d616b42d495801561
