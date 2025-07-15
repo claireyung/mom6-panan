@@ -470,5 +470,5 @@ work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5.nc:
 work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5_NOGL.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_opencavity_cropped_mindepth5_NOGL.nc
   hashes:
-    binhash: b3dc5b95abc0aab91ac8655bb10208d1
-    md5: 22b67c38322f427b786c108e3c56ec8b
+    binhash: 75812ad0eeed902246aca4e97607a593
+    md5: ffae8a8463523afb2662efbe500bc83d
