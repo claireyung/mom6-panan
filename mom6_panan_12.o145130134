@@ -1,0 +1,26 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+Found experiment archive: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe, input and restart manifests
+
+======================================================================================
+                  Resource Usage on 2025-07-12 15:09:35:
+   Job Id:             145130134.gadi-pbs
+   Project:            x77
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      7339.57
+   NCPUs Requested:    1824                   NCPUs Used: 1824            
+                                           CPU Time Used: 3562:37:27      
+   Memory Requested:   7.12TB                Memory Used: 1.77TB          
+   Walltime requested: 02:00:00            Walltime Used: 02:00:43        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

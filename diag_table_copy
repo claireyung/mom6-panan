@@ -1,0 +1,176 @@
+panan
+1991 1 1 0 0 0
+
+"ocean_daily%4yr_%3dy",         1, "days",   1, "days", "time", 1, "days"
+"ocean_daily_z%4yr_%3dy",       1, "days",   1, "days", "time", 1, "days"
+"ocean_daily_rho2%4yr_%3dy",    1, "days",   1, "days", "time", 1, "days"
+"ocean_daily_snap",             1, "days",   1, "days", "time"
+"ocean_month",                  1, "months", 1, "days", "time"
+"ocean_month_z",                1, "months", 1, "days", "time"
+"ocean_month_rho2",             1, "months", 1, "days", "time"
+"ocean_month_rho2_snap",        1, "months", 1, "days", "time"
+"ocean_static",                -1, "months", 1, "days", "time" # ocean_static is a protected name. Do not change this line.
+"ice_daily",                    1, "days",   1, "days", "time"
+"ice_month",                    1, "months", 1, "days", "time"
+
+
+"prog",          0,"days", 1, "days", "time"
+"ice",          0,"days", 1, "days", "time"
+"ice_shelf_model","area_shelf_h","area_shelf_h","ice","all",.false.,"none",2
+"ice_shelf_model","shelf_mass","shelf_mass","ice","all",.false.,"none",2
+"ice_shelf_model","h_shelf","h_shelf","ice","all",.false.,"none",2
+"ice_shelf_model","mass_flux","mass_flux","ice","all",.false.,"none",2
+"ice_shelf_model","melt","melt_rate","ice","all",.false.,"none",2
+"ice_shelf_model","thermal_driving","thermal_driving","ice","all",.false.,"none",2
+"ice_shelf_model","haline_driving","haline_driving","ice","all",.false.,"none",2
+"ice_shelf_model","sbdry","sbdry","ice","all",.false.,"none",2
+"ice_shelf_model","u_ml","u_ml","ice","all",.false.,"none",2
+"ice_shelf_model","v_ml","v_ml","ice","all",.false.,"none",2
+"ice_shelf_model","exch_vel_s","exch_vel_s","ice","all",.false.,"none",2
+"ice_shelf_model","exch_vel_t","exch_vel_t","ice","all",.false.,"none",2
+"ice_shelf_model","tfreeze","tfreeze","ice","all",.false.,"none",2
+"ice_shelf_model","tflux_shelf","tflux_shelf","ice","all",.false.,"none",2
+"ice_shelf_model","ustar_shelf","ustar_shelf","ice","all",.false.,"none",2
+
+"ocean_model","u","u","prog","all",.false.,"none",2
+"ocean_model","v","v","prog","all",.false.,"none",2
+"ocean_model","h","h","prog","all",.false.,"none",2
+"ocean_model","e","e","prog","all",.false.,"none",2
+"ocean_model","temp","temp","prog","all",.false.,"none",2
+"ocean_model","salt","salt","prog","all",.false.,"none",2
+
+
+# Ocean grid-cell volume
+"ocean_model_z", "volcello",     "volcello",         "ocean_month_z",       "all", "mean", "none",2
+"ocean_model_rho2", "volcello",  "volcello",         "ocean_month_rho2",    "all", "mean", "none",2
+"ocean_model", "volcello",  "volcello",         "ocean_daily%4yr_%3dy",    "all", "mean", "none",2
+"ocean_model_z", "volcello",  "volcello",         "ocean_daily_z%4yr_%3dy",    "all", "mean", "none",2
+"ocean_model_rho2", "volcello",  "volcello",         "ocean_daily_rho2%4yr_%3dy",    "all", "mean", "none",2
+"ocean_model_rho2", "volcello",  "volcello",         "ocean_month_rho2_snap",    "all", "none", "none",2
+
+# Sea surface height above geoid
+"ocean_model",   "zos",          "zos",              "ocean_month",         "all", "mean", "none",2
+"ocean_model",   "zos",          "zos",              "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
+"ocean_model",   "zos",          "zos",              "ocean_daily_snap",    "all", "none", "none",2
+# Sea Water Potential Temperature at Sea Floor
+"ocean_model",   "tob",          "tob",              "ocean_month",         "all", "mean", "none",2
+# Sea Water Salinity at Sea Floor
+"ocean_model",   "sob",          "sob",              "ocean_month",         "all", "mean", "none",2
+# Mixed layer depth (delta rho = 0.03)
+"ocean_model",   "mlotst",       "mlotst",           "ocean_month",         "all", "mean", "none",2
+"ocean_model",   "mlotst",       "mlotst",           "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
+# Sea Surface Speed
+#"ocean_model",   "speed",        "speed",            "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
+
+# (umo,vmo)  =net mass transport from residual mean velocity (model resolved + SGS)
+"ocean_model_rho2","umo",       "umo",              "ocean_month_rho2",   "all", "mean", "none",2
+"ocean_model_rho2","umo",       "umo",              "ocean_daily_rho2%4yr_%3dy",   "all", "mean", "none",2
+"ocean_model_rho2","vmo",       "vmo",              "ocean_month_rho2",   "all", "mean", "none",2
+"ocean_model_rho2","vmo",       "vmo",              "ocean_daily_rho2%4yr_%3dy",   "all", "mean", "none",2
+#"ocean_model_rho2", "h",        "hmo",              "ocean_month_rho2",   "all", "mean", "none", 2
+
+# Zonal/Meridional velocity
+"ocean_model_z","uo",           "uo",               "ocean_month_z",      "all", "mean", "none",2
+"ocean_model_z",  "uo",         "uo",               "ocean_daily_z%4yr_%3dy",      "all","mean","-1,-1,-1,-1,0,1500",2
+"ocean_model_z","vo",           "vo",               "ocean_month_z",      "all", "mean", "none",2
+"ocean_model_z",  "vo",         "vo",               "ocean_daily_z%4yr_%3dy",      "all","mean","-1,-1,-1,-1,0,1500",2
+# Potential Temperature
+"ocean_model_z", "thetao",       "thetao",           "ocean_month_z",       "all", "mean", "none",2  # if use pre-TEOS10
+"ocean_model_z", "thetao",       "thetao",           "ocean_daily_z%4yr_%3dy",       "all", "mean", "none",2  # if use pre-TEOS10
+# Salinity
+"ocean_model_z", "so",           "so",               "ocean_month_z",       "all", "mean", "none",2
+"ocean_model_z", "so",           "so",               "ocean_daily_z%4yr_%3dy",       "all", "mean", "none",2
+# Potential Density referenced to 2000 dbar
+"ocean_model_z", "rhopot2",      "rhopot2",          "ocean_month_z",      "all", "mean", "none", 2
+# Potential Density referenced to 0 dbar
+"ocean_model_z", "rhopot0",      "rhopot0",          "ocean_month_z",      "all", "mean", "none", 2
+# Ideal age
+"ocean_model_z", "agessc",      "agessc",          "ocean_month_z",      "all", "mean", "none", 2
+
+# Ocean Mass X/Y Transport Vertical Sum
+"ocean_model",  "umo_2d",       "umo_2d",      "ocean_month",         "all", "mean", "none",2
+"ocean_model",  "vmo_2d",       "vmo_2d",      "ocean_month",         "all", "mean", "none",2
+
+# Zonal/Meridional surface stress from ocean interactions with atmos and ice
+"ocean_model",  "tauuo",        "tauuo",            "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "tauvo",        "tauvo",            "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "tauuo",        "tauuo",            "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+"ocean_model",  "tauvo",        "tauvo",            "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+                                                                                                                         
+# Surface ocean heat flux from SW+LW+lat+sens+mass transfer+frazil+restore+seaice_melt_heat or flux adjustments
+"ocean_model",  "hfds",            "hfds",             "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "hfds",            "hfds",             "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+# Net surface water flux (precip+melt+lrunoff+ice calving-evap)
+"ocean_model",  "wfo",          "wfo",              "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "wfo",          "wfo",              "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+"ocean_model",  "fsitherm",          "fsitherm",              "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "fsitherm",          "fsitherm",              "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+"ocean_model",  "salt_flux",       "salt_flux",           "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "salt_flux",       "salt_flux",           "ocean_daily%4yr_%3dy",        "all", "mean", "none",2
+"ocean_model",  "salt_flux_added",       "salt_flux_added",           "ocean_month",        "all", "mean", "none",2
+# Monthly surface forcing components
+"ocean_model",  "precip",       "precip",           "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "lrunoff",       "lrunoff",           "ocean_month",        "all", "mean", "none",2
+"ocean_model",  "prunoff",       "prunoff",           "ocean_month",        "all", "mean", "none",2
+
+# Monthly T advection zonal, meridional
+"ocean_model_z", "T_adx",      "T_adx",          "ocean_month_z",      "all", "mean", "none", 2
+"ocean_model_z", "T_ady",      "T_ady",          "ocean_month_z",      "all", "mean", "none", 2
+# Daily T advection vertically integrated zonal, meridional
+"ocean_model", "T_adx",      "T_adx_2d",          "ocean_daily%4yr_%3dy",      "all", "mean", "none", 2
+"ocean_model", "T_ady",      "T_ady_2d",          "ocean_daily%4yr_%3dy",      "all", "mean", "none", 2
+
+# Total diapycnal diffusivity, this diagnostic is not correct
+# "ocean_model_rho2", "Kd_interface",  "Kd_interface",  "ocean_month_rho2",      "all", "mean", "none",2
+# Total diapycnal diffusivity for heat at interfaces
+"ocean_model_rho2", "Kd_heat",  "Kd_heat",  "ocean_month_rho2",      "all", "mean", "none",2
+# Total diapycnal diffusivity for salt at interfaces
+"ocean_model_rho2", "Kd_salt",  "Kd_salt",  "ocean_month_rho2",      "all", "mean", "none",2
+# ePBL diapycnal diffusivity at interfaces
+"ocean_model_rho2", "Kd_ePBL",  "Kd_ePBL",  "ocean_month_rho2",      "all", "mean", "none",2
+# Shear-driven Diapycnal Diffusivity
+"ocean_model_rho2", "Kd_shear",  "Kd_shear",  "ocean_month_rho2",      "all", "mean", "none",2
+# Bottom Boundary Layer Diffusivity
+"ocean_model_rho2", "Kd_BBL",  "Kd_BBL",  "ocean_month_rho2",      "all", "mean", "none",2
+
+# Surface area of tracer (T) cells
+"ocean_model", "areacello",   "areacello",   "ocean_static", "all", "none", "none", 2
+# Depth of the ocean at tracer points
+"ocean_model", "deptho",      "deptho",      "ocean_static", "all", "none", "none", 2
+"ocean_model", "Coriolis",    "Coriolis",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolon",      "geolon",      "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolat",      "geolat",      "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolon_c",    "geolon_c",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolat_c",    "geolat_c",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolon_u",    "geolon_u",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolat_u",    "geolat_u",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolon_v",    "geolon_v",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "geolat_v",    "geolat_v",    "ocean_static", "all", "none", "none", 2
+"ocean_model", "wet",         "wet",         "ocean_static", "all", "none", "none", 2
+"ocean_model", "wet_c",       "wet_c",       "ocean_static", "all", "none", "none", 2
+"ocean_model", "wet_u",       "wet_u",       "ocean_static", "all", "none", "none", 2
+"ocean_model", "wet_v",       "wet_v",       "ocean_static", "all", "none", "none", 2
+"ocean_model", "dxt",         "dxt",         "ocean_static", "all", "none", "none", 2
+"ocean_model", "dyt",         "dyt",         "ocean_static", "all", "none", "none", 2
+"ocean_model", "dxCu",        "dxCu",        "ocean_static", "all", "none", "none", 2
+"ocean_model", "dyCu",        "dyCu",        "ocean_static", "all", "none", "none", 2
+"ocean_model", "dxCv",        "dxCv",        "ocean_static", "all", "none", "none", 2
+"ocean_model", "dyCv",        "dyCv",        "ocean_static", "all", "none", "none", 2
+"ocean_model", "areacello_cu","areacello_cu","ocean_static", "all", "none", "none", 2
+"ocean_model", "areacello_cv","areacello_cv","ocean_static", "all", "none", "none", 2
+"ocean_model", "areacello_bu","areacello_bu","ocean_static", "all", "none", "none", 2
+
+
+"ice_model", "siconc",     "siconc",       "ice_month", "all", "mean", "none", 2
+"ice_model", "siconc",     "siconc",       "ice_daily", "all", "mean", "none", 2
+"ice_model", "sithick",    "sithick",      "ice_month", "all", "mean", "none", 2
+"ice_model", "sithick",    "sithick",      "ice_daily", "all", "mean", "none", 2
+"ice_model", "net_melt",   "net_melt",     "ice_month", "all", "mean", "none", 2
+"ice_model", "net_melt",    "net_melt",      "ice_daily", "all", "mean", "none", 2
+# ice transport, x and y component
+"ice_model", "IX_TRANS",       "IX_TRANS",         "ice_month", "all", "mean", "none", 2
+"ice_model", "IY_TRANS",       "IY_TRANS",         "ice_month", "all", "mean", "none", 2
+# Air stress on ice on C-grid, x and y component
+#"ice_model", "FA_X",       "FA_X",         "ice_month", "all", "mean", "none", 2
+#"ice_model", "FA_Y",       "FA_Y",         "ice_month", "all", "mean", "none", 2
+
