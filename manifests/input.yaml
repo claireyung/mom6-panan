@@ -422,6 +422,11 @@ work/INPUT/ocean_mosaic.nc:
   hashes:
     binhash: fc73ec43173b38e3855e4643cee6db44
     md5: b776930b485eb99b609e6df91fd0bd76
+work/INPUT/ocean_thickness_iceshelf_Charrassin_opencavity_from_IC.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_thickness_iceshelf_Charrassin_opencavity_from_IC.nc
+  hashes:
+    binhash: 460caaa6aed8f649a485d2779e684d5b
+    md5: a50a5a5059fd8640930463ce2b4237a4
 work/INPUT/ocean_vgrid_cropped.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
   hashes:
@@ -472,3 +477,8 @@ work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5_NOGL.nc:
   hashes:
     binhash: 75812ad0eeed902246aca4e97607a593
     md5: ffae8a8463523afb2662efbe500bc83d
+work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5_NOGL50m.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_opencavity_cropped_mindepth5_NOGL50m.nc
+  hashes:
+    binhash: 1bf37b05d98e2d34281c1cd8c8232eef
+    md5: 3b1e61bb1b4e1c9142107162dcfe7e3f
