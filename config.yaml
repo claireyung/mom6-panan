@@ -16,7 +16,8 @@ input:
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/
     - /g/data/ik11/inputs/mom6/regrid_runoff/
     - /g/data/ik11/inputs/JRA-55/RYF/v1-3/
-exe: /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-aledbg-38a7d55
+exe: /g/data/ik11/inputs/mom6/bin/symmetric_FMS2-e7d09b7
+#/g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-aledbg-38a7d55
 #/g/data/ik11/inputs/mom6/bin/symmetric_FMS2-e7d09b7
 # /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-aledbg-38a7d55
 #/g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-dbg-e9dbc6c
