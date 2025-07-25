@@ -332,11 +332,21 @@ work/INPUT/Regrid runoff data.ipynb:
   hashes:
     binhash: fcc10fef354130ca545795c5014426f2
     md5: 78f05654fc0aa490324f2c2e97f07f6c
+work/INPUT/Vertical_coordinate.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate.nc
+  hashes:
+    binhash: 4e3ce014bc1af612ac5052e8b2d8c151
+    md5: 9aef08d9f63e0b3eecd3bc2572157120
 work/INPUT/Vertical_coordinate_75.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_75.nc
   hashes:
     binhash: 6dbfd9c32632ed1218eb867b7ab018d9
     md5: 73e6d3e5bfb44e415ea437492acea527
+work/INPUT/Vertical_coordinate_75_v2.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_75_v2.nc
+  hashes:
+    binhash: 59dd6416b98e64d79c3a09152f3ae56a
+    md5: 76d58adce3c302accbfcb4fdd02d0c86
 work/INPUT/WOA_IC_bfilled_smoothedland_pottemp.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
   hashes:
