@@ -352,6 +352,11 @@ work/INPUT/atmos_mosaic_tile1Xocean_mosaic_tile1.nc:
   hashes:
     binhash: 8d04f0aa1395ef66e13dea95c4338ad3
     md5: 959068a74859a7495138c62d54ef712c
+work/INPUT/diag_rho2.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/diag_rho2.nc
+  hashes:
+    binhash: 4a7ec285df571bdf38f43599dbcc5f7b
+    md5: b8abcb148bb3ef71282d6be4531e491e
 work/INPUT/forcing_access_yr2_8km_fill.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/forcing_access_yr2_8km_fill.nc
   hashes:
@@ -392,6 +397,11 @@ work/INPUT/ocean_mosaic.nc:
   hashes:
     binhash: f537c8c7b2d9e5d327b7f1ff0b22497c
     md5: 2b7cf41205bb6385587507e8ac32dfd4
+work/INPUT/ocean_vgrid_cropped.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
+  hashes:
+    binhash: 17315f73743449de6cd80e40c6a1eb17
+    md5: 66f71f2b24bd00b1c220787505e0106e
 work/INPUT/pickle.regrid_runoff_A:
   fullpath: /g/data/ik11/inputs/mom6/regrid_runoff/pickle.regrid_runoff_A
   hashes:
