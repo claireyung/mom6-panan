@@ -352,6 +352,11 @@ work/INPUT/atmos_mosaic_tile1Xocean_mosaic_tile1.nc:
   hashes:
     binhash: 8d04f0aa1395ef66e13dea95c4338ad3
     md5: 959068a74859a7495138c62d54ef712c
+work/INPUT/forcing_access_yr2_8km_fill.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/forcing_access_yr2_8km_fill.nc
+  hashes:
+    binhash: 50f2f9de7b99c967f1988bc24b4d407e
+    md5: 99224c9adef929cfa13ff81e055ea69c
 work/INPUT/grid_spec.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/grid_spec.nc
   hashes:
