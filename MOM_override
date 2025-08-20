@@ -1,7 +1,7 @@
 ! NOTE: User made changes to this file override the settings in MOM_input
 !       This provides a clear record of how your configuration differs from the standard
 
-#override TOPO_FILE = "topog_Charrassin_opencavity_cropped_mindepth5_NOGL50m.nc"
+#override TOPO_FILE = "topog_Charrassin_open_cavity_noGL5m_new190825.nc"
 
 ! === module MOM_open_boundary ===
 OBC_NUMBER_OF_SEGMENTS = 1
@@ -26,9 +26,9 @@ SPONGE = False
 #override SALT_RESTORE_FILE = "salt_restore_interpolated_nearest.nc"
 
 #override FATAL_UNUSED_PARAMS = False
-#override DT = 360 !180 !150 !600 !720
-#override DT_THERM = 360 !180 !  150 ! 1200 !1440 !ideally shorten from 3600 due to adele's OBC issue
-#override DEBUG = True
+#override DT = 180 !150 !600 !720
+#override DT_THERM = 180 !  150 ! 1200 !1440 !ideally shorten from 3600 due to adele's OBC issue
+!#override DEBUG = True
 
 !8k specific params
 #override NIGLOBAL = 4320

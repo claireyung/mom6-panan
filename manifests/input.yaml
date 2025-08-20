@@ -332,116 +332,61 @@ work/INPUT/Regrid runoff data.ipynb:
   hashes:
     binhash: fcc10fef354130ca545795c5014426f2
     md5: 78f05654fc0aa490324f2c2e97f07f6c
-work/INPUT/Vertical_coordinate.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate.nc
+work/INPUT/Vertical_coordinate_125.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_125.nc
   hashes:
-    binhash: 4e3ce014bc1af612ac5052e8b2d8c151
-    md5: 9aef08d9f63e0b3eecd3bc2572157120
-work/INPUT/Vertical_coordinate_75.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_75.nc
-  hashes:
-    binhash: 6dbfd9c32632ed1218eb867b7ab018d9
-    md5: 73e6d3e5bfb44e415ea437492acea527
-work/INPUT/Vertical_coordinate_75_v2.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_75_v2.nc
-  hashes:
-    binhash: 59dd6416b98e64d79c3a09152f3ae56a
-    md5: 76d58adce3c302accbfcb4fdd02d0c86
+    binhash: 5515cbb450e24c77f8ba5d24f3f175d6
+    md5: 7ef2a4b667a49df735df743afdf42c65
 work/INPUT/WOA_IC_bfilled_smoothedland_pottemp.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
   hashes:
     binhash: d7ff1e6a4873f01a9bfc9209b08b9acf
     md5: 50a6a31c84b5b000a064af7336e36eb8
 work/INPUT/atmos_mosaic_tile1Xland_mosaic_tile1.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/atmos_mosaic_tile1Xland_mosaic_tile1.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/atmos_mosaic_tile1Xland_mosaic_tile1.nc
   hashes:
-    binhash: 5b7eeb786da8909f5ba56c1430e49f3c
-    md5: 591ae093f09c45c72e842ffc7e406f34
+    binhash: 8702f01da754f10abd603dd96dcff478
+    md5: 26c5952a4fd042021e9dbd10481d457e
 work/INPUT/atmos_mosaic_tile1Xocean_mosaic_tile1.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/atmos_mosaic_tile1Xocean_mosaic_tile1.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/atmos_mosaic_tile1Xocean_mosaic_tile1.nc
   hashes:
-    binhash: 8b0e4c756356982edfe3e87c1ba1df1f
-    md5: 3322cbdf5a4e91ee0fb348902070865c
-work/INPUT/bottom_roughness_Charrassin_nocavity_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/bottom_roughness_Charrassin_nocavity_cropped.nc
-  hashes:
-    binhash: cb91eed92bd7b83353153c3d3430ef26
-    md5: c172360d26674ade54b621f0c23055e9
-work/INPUT/diag_rho2.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/diag_rho2.nc
-  hashes:
-    binhash: 4a7ec285df571bdf38f43599dbcc5f7b
-    md5: b8abcb148bb3ef71282d6be4531e491e
-work/INPUT/forcing_access_yr2_8km_fill.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/forcing_access_yr2_8km_fill.nc
-  hashes:
-    binhash: 50f2f9de7b99c967f1988bc24b4d407e
-    md5: 99224c9adef929cfa13ff81e055ea69c
+    binhash: 8d04f0aa1395ef66e13dea95c4338ad3
+    md5: 959068a74859a7495138c62d54ef712c
 work/INPUT/grid_spec.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/grid_spec.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/grid_spec.nc
   hashes:
-    binhash: 2090093bb43da93a35d74a58e01f5566
-    md5: 4c49794f6bfe61cdc0233a67a1a41f47
-work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area.nc
+    binhash: bbbee2c65063e0fdc03e3be9729873d3
+    md5: 21d6ae36482c5d952a53ed5384fe8d40
+work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
   hashes:
-    binhash: 13413116fd8bffe4f2d92b65da88e9fe
-    md5: 0fb53d13950e6a279e95192f444e68b0
-work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area2.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area2.nc
-  hashes:
-    binhash: 798215b4db53bf96241b2d8dd8e65c8f
-    md5: aff2a1e4a32a8d43f0d289d50e8b10c7
-work/INPUT/kmt_Charrassin_nocavity_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/kmt_Charrassin_nocavity_cropped.nc
-  hashes:
-    binhash: 8a5184dfd21423b095a3254b76a8333d
-    md5: 7ec3d82ea07c77021acf3f1faded52e8
+    binhash: d92b41ecc816c0a4fd549b6e04d1cbaa
+    md5: eaebb0ca2eba3589c5b236bc3df66a2b
 work/INPUT/land_mask.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/land_mask.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/land_mask.nc
   hashes:
-    binhash: dddc6feab966091acecacff3eec12d59
-    md5: 1c812006f97f289f7a69f07718c1e109
+    binhash: 312d3126e42f0891d5e7445f9fbbb73c
+    md5: da1c2e18a960dbd9c0904fb211944566
 work/INPUT/land_mosaic_tile1Xocean_mosaic_tile1.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/land_mosaic_tile1Xocean_mosaic_tile1.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/land_mosaic_tile1Xocean_mosaic_tile1.nc
   hashes:
-    binhash: c4705f4485a048b1dbdfe399447baa12
-    md5: 0e63f26bd2cdbe8bfc1f0657a4f159e0
-work/INPUT/mask_table.2454376.4320x1442:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_table.2454376.4320x1442
-  hashes:
-    binhash: 096fed84961c782e837f79e91097a3b4
-    md5: 9a0fd1a8e2766cad6ede495ff6fb59f1
-work/INPUT/mask_table.931.63x43:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_table.931.63x43
-  hashes:
-    binhash: b293df1ed146cf5a50c4e6deaab6a617
-    md5: 5f48a7eb23a15da2b4124d0991a685fc
+    binhash: 322f863677e0d3da8fe8ddb3d225cd16
+    md5: 877788a23ed2ede4ac95623f4d913fd8
 work/INPUT/ocean_hgrid_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_hgrid_cropped.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/ocean_hgrid_cropped.nc
   hashes:
-    binhash: 74139c6c02030cf7cf70fc7dc3ae5e65
+    binhash: 2c788c0d11434e93420524df0c1a0a8d
     md5: a1876832e039ca9bf761b8c16a08449e
 work/INPUT/ocean_mask.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_mask.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/ocean_mask.nc
   hashes:
-    binhash: d7d6e67d28194542a6c2b8639e1f7fa4
-    md5: eb3ea00ff97d831ab82e1d0ee086648a
+    binhash: a02865f27c7a33b611f5999c93db534c
+    md5: 2e3b857e6ed901d9ee663934b8d36bfb
 work/INPUT/ocean_mosaic.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_mosaic.nc
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/ocean_mosaic.nc
   hashes:
-    binhash: fc73ec43173b38e3855e4643cee6db44
-    md5: b776930b485eb99b609e6df91fd0bd76
-work/INPUT/ocean_thickness_iceshelf_Charrassin_opencavity_from_IC.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_thickness_iceshelf_Charrassin_opencavity_from_IC.nc
-  hashes:
-    binhash: 460caaa6aed8f649a485d2779e684d5b
-    md5: a50a5a5059fd8640930463ce2b4237a4
-work/INPUT/ocean_vgrid_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
-  hashes:
-    binhash: 17315f73743449de6cd80e40c6a1eb17
-    md5: 66f71f2b24bd00b1c220787505e0106e
+    binhash: f537c8c7b2d9e5d327b7f1ff0b22497c
+    md5: 2b7cf41205bb6385587507e8ac32dfd4
 work/INPUT/pickle.regrid_runoff_A:
   fullpath: /g/data/ik11/inputs/mom6/regrid_runoff/pickle.regrid_runoff_A
   hashes:
@@ -452,11 +397,6 @@ work/INPUT/regrid_runoff.py:
   hashes:
     binhash: e3b8e72d40909e7386b1c68e6c778214
     md5: 80a1a9074062557be4875201e89d7e93
-work/INPUT/salt_restore_interpolated_nearest.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/salt_restore_interpolated_nearest.nc
-  hashes:
-    binhash: e54de2e888cb191d5937e85d005b4bd8
-    md5: bb9d24170b4525864b933b72803df984
 work/INPUT/test/Makefile:
   fullpath: /g/data/ik11/inputs/mom6/regrid_runoff/test/Makefile
   hashes:
@@ -467,28 +407,18 @@ work/INPUT/test/check.md5:
   hashes:
     binhash: 2610a6f6ca431a9ab1b1905288deb918
     md5: 465998efe8ed8a7d7f9867897b903d40
-work/INPUT/tideamp_Charrassin_nocavity_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/tideamp_Charrassin_nocavity_cropped.nc
+work/INPUT/topog_Charrassin_open_cavity_noGL5m_new190825.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
   hashes:
-    binhash: c895051ae42f0b58b82d38f1fbad2792
-    md5: e714813b1e4bd46dff7936cd86b15366
-work/INPUT/topog_Charrassin_nocavity_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_nocavity_cropped.nc
+    binhash: d9996f5811c3e4969c3a3ffa3bbff5ec
+    md5: 549e883b3a42fbf3c06b2e7eb62c9b4b
+work/INPUT/topog_Charrassin_regridded_cropped.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_regridded_cropped.nc
   hashes:
-    binhash: 23baecac202d080b3843407ba8c7b195
-    md5: 48bd279b3301e9f41f4aa38030f9ee68
-work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_opencavity_cropped_mindepth5.nc
+    binhash: 4ab7c004cb189280303764151207ff66
+    md5: 4ceaac43b2d7d9e8bddbe96009a7ba93
+work/INPUT/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc
   hashes:
-    binhash: 41f5c7115ac2f408607f20d9484e98e2
-    md5: 2daa0302aada879456dc30848f8c11e0
-work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5_NOGL.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_opencavity_cropped_mindepth5_NOGL.nc
-  hashes:
-    binhash: 75812ad0eeed902246aca4e97607a593
-    md5: ffae8a8463523afb2662efbe500bc83d
-work/INPUT/topog_Charrassin_opencavity_cropped_mindepth5_NOGL50m.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_opencavity_cropped_mindepth5_NOGL50m.nc
-  hashes:
-    binhash: 1bf37b05d98e2d34281c1cd8c8232eef
-    md5: 3b1e61bb1b4e1c9142107162dcfe7e3f
+    binhash: 96cee328a3984fbc9a5763684645ca91
+    md5: 96313caa8fbc945b2471c31652cea2d1

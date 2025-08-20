@@ -21,7 +21,7 @@ GRID_CONFIG = "mosaic"
 GRID_FILE = "ocean_hgrid_cropped.nc"
 INPUTDIR = "INPUT"
 
-TOPO_FILE = "topog_Charrassin_nocavity_cropped.nc"
+TOPO_FILE = "topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc"! "topog_Charrassin_nocavity_cropped.nc"
 MAXIMUM_DEPTH = 6000.0
 
 WRITE_GEOM = 0
