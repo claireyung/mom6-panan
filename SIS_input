@@ -65,4 +65,7 @@ FATAL_UNUSED_PARAMS = True
 ADD_DIURNAL_SW = False
 
 #override WRITE_GEOM = 1
+#override MASKING_DEPTH = 0
+#override MAXIMUM_DEPTH = 6500
+#override MINIMUM_DEPTH = 9.9
 
