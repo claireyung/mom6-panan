@@ -82,4 +82,4 @@ SURFACE_PRESSURE_SCALE = 8986.6
 
 #override MASKING_DEPTH = 0
 #override DTFREEZE_DP = -7.75E-08  
-
+#override WRITE_GEOM = 1

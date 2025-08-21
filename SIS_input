@@ -63,3 +63,6 @@ FATAL_UNUSED_PARAMS = True
 
 ! from overrides:
 ADD_DIURNAL_SW = False
+
+#override WRITE_GEOM = 1
+
