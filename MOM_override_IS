@@ -85,4 +85,4 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override MINIMUM_DEPTH = 9.9
 #override DTFREEZE_DP = -7.75E-08  
 #override WRITE_GEOM = 1
-
+#override Z_INIT_ALE_REMAPPING = False
