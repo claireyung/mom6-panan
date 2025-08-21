@@ -266,6 +266,11 @@ work/INPUT/ocean_topog.nc:
   hashes:
     binhash: 839b856bcd71e27806a93595e4f60dde
     md5: 7987fa845db4b0efaa2b20eac716fe72
+work/INPUT/ocean_vgrid_cropped.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
+  hashes:
+    binhash: 17315f73743449de6cd80e40c6a1eb17
+    md5: 66f71f2b24bd00b1c220787505e0106e
 work/INPUT/topog_Charrassin_open_cavity_noGL5m_new190825.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
   hashes:

@@ -16,6 +16,7 @@ model: mom6
 input:
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/forcing_access_yr2_8km_fill.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/Vertical_coordinate_125.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_regridded_cropped.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc
