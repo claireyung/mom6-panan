@@ -1,5 +1,0 @@
-#override DT_ICE_DYNAMICS = 600 !300! 1200.
-#override DT_RADIATION = 600 !300 !1200.
-#override MAXTRUNC = 2000000
-#override MINIMUM_DEPTH = 9.9
-#override MASKING_DEPTH = 0.0

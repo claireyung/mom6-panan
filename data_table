@@ -6,13 +6,13 @@
 "ATM", "v_bot", "vas_10m", "./INPUT/RYF.v_10.1990_1991.nc", "bicubic", 1.0
 "ATM", "z_bot", "", "", "bilinear", 10.0
 "ATM", "gust", "", "", "bilinear", 1.0e-4
-"ATM", "lw_flux_dn", "rlds", "./INPUT/RYF.rlds.1990_1991.nc", "bilinear", 1.0
+"ICE", "lw_flux_dn", "rlds", "./INPUT/RYF.rlds.1990_1991.nc", "bilinear", 1.0
 "ICE", "sw_flux_vis_dir_dn", "rsds", "./INPUT/RYF.rsds.1990_1991.nc", "bilinear", 0.285
 "ICE", "sw_flux_vis_dif_dn", "rsds", "./INPUT/RYF.rsds.1990_1991.nc", "bilinear", 0.285
 "ICE", "sw_flux_nir_dir_dn", "rsds", "./INPUT/RYF.rsds.1990_1991.nc", "bilinear", 0.215
 "ICE", "sw_flux_nir_dif_dn", "rsds", "./INPUT/RYF.rsds.1990_1991.nc", "bilinear", 0.215
-"ATM", "lprec", "prrn", "./INPUT/RYF.rain.1990_1991.nc", "bilinear", 1.0
-"ATM", "fprec", "prsn", "./INPUT/RYF.snow.1990_1991.nc", "bilinear", 1.0
+"ICE", "lprec", "prrn", "./INPUT/RYF.rain.1990_1991.nc", "bilinear", 1.0
+"ICE", "fprec", "prsn", "./INPUT/RYF.snow.1990_1991.nc", "bilinear", 1.0
 "ICE", "dhdt", "", "", "none", 80.0
 "ICE", "dedt", "", "", "none", 2.0e-6
 "ICE", "drdt", "", "", "none", 10.0
