@@ -28,7 +28,7 @@ SPONGE = False
 #override FATAL_UNUSED_PARAMS = False
 #override DT = 180 !150 !600 !720
 #override DT_THERM = 180 !  150 ! 1200 !1440 !ideally shorten from 3600 due to adele's OBC issue
-#override DEBUG = True
+!#override DEBUG = True
 
 !8k specific params
 #override NIGLOBAL = 4320
@@ -51,4 +51,4 @@ SPONGE = False
 
 !save time for restart runs
 !#override SAVE_INITIAL_CONDS = False
-!#override SAVE_INITIAL_CONDS = True
+#override SAVE_INITIAL_CONDS = True
