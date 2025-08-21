@@ -86,6 +86,3 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override DTFREEZE_DP = -7.75E-08  
 #override WRITE_GEOM = 1
 !#override Z_INIT_ALE_REMAPPING = False
-#override COORD_CONFIG = "file"
-COORD_FILE = "Vertical_coordinate_125.nc" 
-COORD_VAR = "Layer" 
