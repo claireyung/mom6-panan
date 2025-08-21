@@ -99,3 +99,6 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override Z_INIT_ALE_REMAPPING = False
 #override ADJUST_THICKNESS = True
 #override FIT_TO_TARGET_DENSITY_IC = False
+#override COORD_CONFIG = "file"
+COORD_FILE = "Vertical_coordinate_125.nc"
+COORD_VAR = "Layer"
