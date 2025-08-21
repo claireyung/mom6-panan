@@ -19,11 +19,11 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"
 
 ! Recommended pressure gradient ice shelf fixes
-#override MASS_WEIGHT_IN_PRESSURE_GRADIENT_TOP = True
-#override RESET_INTXPA_INTEGRAL = True
-#override RESET_INTXPA_INTEGRAL_FLATTEST = True
-#override MASS_WEIGHT_IN_PGF_VANISHED_ONLY = True
-#override HARMONIC_BL_SCALE = 1
+!#override MASS_WEIGHT_IN_PRESSURE_GRADIENT_TOP = True
+!#override RESET_INTXPA_INTEGRAL = True
+!#override RESET_INTXPA_INTEGRAL_FLATTEST = True
+!#override MASS_WEIGHT_IN_PGF_VANISHED_ONLY = True
+!#override HARMONIC_BL_SCALE = 1
 
 ! Recommended to fix remapping and initialisation
 #override INIT_BOUNDARY_EXTRAP = True
@@ -85,3 +85,5 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override MINIMUM_DEPTH = 9.9
 #override DTFREEZE_DP = -7.75E-08  
 #override WRITE_GEOM = 1
+#override INIT_BOUNDARY_EXTRAP = False
+
