@@ -29,7 +29,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override INIT_BOUNDARY_EXTRAP = True
 #override TRIMMING_USES_REMAPPING = True
 #override TRIM_IC_Z_TOLERANCE = 1.0E-10
-#override REMAPPING_USE_OM4_SUBCELLS = False 
+!#override REMAPPING_USE_OM4_SUBCELLS = False 
 ! Add drag (can increases time before crashing but not always, depending on other parameters)
 #override LINEAR_DRAG = True
 #override DRAG_BG_VEL = 0.05
