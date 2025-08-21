@@ -26,7 +26,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 #override HARMONIC_BL_SCALE = 1
 
 ! Recommended to fix remapping and initialisation
-#override INIT_BOUNDARY_EXTRAP = True
+!#override INIT_BOUNDARY_EXTRAP = True
 #override TRIMMING_USES_REMAPPING = True
 #override TRIM_IC_Z_TOLERANCE = 1.0E-10
 !#override REMAPPING_USE_OM4_SUBCELLS = False 
