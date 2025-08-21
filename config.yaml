@@ -21,7 +21,8 @@ input:
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
-    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
+      #    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_ADDHMASKFILLTHICK_190825.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825
       #    - /g/data/ik11/inputs/mom6/regrid_runoff/
     - /g/data/ik11/inputs/JRA-55/RYF/v1-3/

@@ -221,11 +221,11 @@ work/INPUT/hycom1_panant.nc:
   hashes:
     binhash: af6ca816d5f31f171cb54318c8baee71
     md5: 15dcc7048ed27e05e1a2d7d64dc4b235
-work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
+work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_ADDHMASKFILLTHICK_190825.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_ADDHMASKFILLTHICK_190825.nc
   hashes:
-    binhash: d92b41ecc816c0a4fd549b6e04d1cbaa
-    md5: eaebb0ca2eba3589c5b236bc3df66a2b
+    binhash: 12462201bcb0d3822dc85a51eb249d0e
+    md5: dd40370c2cf406e2471d458982793525
 work/INPUT/land_mask.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/land_mask.nc
   hashes:
