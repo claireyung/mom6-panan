@@ -177,10 +177,30 @@ work/INPUT/atmos_mosaic_tile1Xocean_mosaic_tile1.nc:
     binhash: 8d04f0aa1395ef66e13dea95c4338ad3
     md5: 959068a74859a7495138c62d54ef712c
 work/INPUT/diag_rho2.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/diag_rho2.nc
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/diag_rho2.nc
   hashes:
-    binhash: 4a7ec285df571bdf38f43599dbcc5f7b
-    md5: b8abcb148bb3ef71282d6be4531e491e
+    binhash: ea39df0b0043f7b1e56314fc6447149a
+    md5: 2e28890e50220397a167a2b3c4a30271
+work/INPUT/forcing/forcing_obc.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/forcing/forcing_obc.nc
+  hashes:
+    binhash: 9afe85eb346583dcad80601c3fefe7a9
+    md5: 0f90ece1f7d98347779369c5408b779c
+work/INPUT/forcing/forcing_obc_shifted.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/forcing/forcing_obc_shifted.nc
+  hashes:
+    binhash: 635b6821e42a8164504f2e652f53cb03
+    md5: 33fd9c0950d4f27066c3a44e2bf35599
+work/INPUT/forcing/temp_salt_init_z.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/forcing/temp_salt_init_z.nc
+  hashes:
+    binhash: 8ecbf0c260c1f7b0c28bdc871b102b3f
+    md5: 15b78def5d1f2d5f5ce2de80ea200352
+work/INPUT/forcing/temp_salt_init_z_0025.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/forcing/temp_salt_init_z_0025.nc
+  hashes:
+    binhash: 707492665f7cb981e4a4193a67231862
+    md5: 24088e849324198e8bc02c848eb57098
 work/INPUT/forcing_access_yr2_8km_fill.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/forcing_access_yr2_8km_fill.nc
   hashes:
@@ -191,6 +211,16 @@ work/INPUT/grid_spec.nc:
   hashes:
     binhash: bbbee2c65063e0fdc03e3be9729873d3
     md5: 21d6ae36482c5d952a53ed5384fe8d40
+work/INPUT/hycom1_75_800m.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/hycom1_75_800m.nc
+  hashes:
+    binhash: 147fd66fb69e354e3eaf4352014121f0
+    md5: 023b23f6b55e6f3b3de6778e608d0d3d
+work/INPUT/hycom1_panant.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/hycom1_panant.nc
+  hashes:
+    binhash: af6ca816d5f31f171cb54318c8baee71
+    md5: 15dcc7048ed27e05e1a2d7d64dc4b235
 work/INPUT/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
   hashes:
@@ -206,6 +236,16 @@ work/INPUT/land_mosaic_tile1Xocean_mosaic_tile1.nc:
   hashes:
     binhash: 322f863677e0d3da8fe8ddb3d225cd16
     md5: 877788a23ed2ede4ac95623f4d913fd8
+work/INPUT/masks/mask_table.262.72x17:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/masks/mask_table.262.72x17
+  hashes:
+    binhash: 4e899707e55991e3864b8d6d8dfc5fe9
+    md5: 42db5287a23f3105c1e917d60136106b
+work/INPUT/ocean_hgrid.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/ocean_hgrid.nc
+  hashes:
+    binhash: 7d35a28e6120ec36813e0cfd759d95a7
+    md5: b2b541d3fc0ca9a167a6d467e8e2450c
 work/INPUT/ocean_hgrid_cropped.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/mask_from_topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825/ocean_hgrid_cropped.nc
   hashes:
@@ -221,11 +261,11 @@ work/INPUT/ocean_mosaic.nc:
   hashes:
     binhash: f537c8c7b2d9e5d327b7f1ff0b22497c
     md5: 2b7cf41205bb6385587507e8ac32dfd4
-work/INPUT/ocean_vgrid_cropped.nc:
-  fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ocean_vgrid_cropped.nc
+work/INPUT/ocean_topog.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/ocean_topog.nc
   hashes:
-    binhash: 17315f73743449de6cd80e40c6a1eb17
-    md5: 66f71f2b24bd00b1c220787505e0106e
+    binhash: 839b856bcd71e27806a93595e4f60dde
+    md5: 7987fa845db4b0efaa2b20eac716fe72
 work/INPUT/topog_Charrassin_open_cavity_noGL5m_new190825.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
   hashes:
@@ -241,3 +281,8 @@ work/INPUT/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc:
   hashes:
     binhash: 96cee328a3984fbc9a5763684645ca91
     md5: 96313caa8fbc945b2471c31652cea2d1
+work/INPUT/vcoord.nc:
+  fullpath: /g/data/ik11/inputs/mom6/panan-01/vcoord.nc
+  hashes:
+    binhash: c9d2b7a2ca4207d54fadf0aeb100f7af
+    md5: 667cfc4be085364b8544f84a34d16a00
