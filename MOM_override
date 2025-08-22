@@ -4,7 +4,7 @@
 #override TOPO_FILE = "topog_Charrassin_open_cavity_noGL5m_new190825.nc"
 
 ! === module MOM_open_boundary ===
-OBC_NUMBER_OF_SEGMENTS = 0
+OBC_NUMBER_OF_SEGMENTS = 1
 OBC_FREESLIP_VORTICITY = True
 OBC_FREESLIP_STRAIN = True
 !OBC_COMPUTED_VORTICITY = True
