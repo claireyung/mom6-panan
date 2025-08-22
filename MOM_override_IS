@@ -104,7 +104,7 @@ COORD_FILE = "Vertical_coordinate_125.nc"
 COORD_VAR = "Layer"
 #override TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = False
 
-#override THICKNESSDIFFUSE = True
+!#override THICKNESSDIFFUSE = True
 #override HARMONIC_VISC = True
-#override LOTW_VISCOUS_ML_FLOOR = True
-#override FIXED_DEPTH_LOTW_ML = True
+!#override LOTW_VISCOUS_ML_FLOOR = True
+!#override FIXED_DEPTH_LOTW_ML = True
