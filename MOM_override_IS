@@ -104,8 +104,8 @@ SURFACE_PRESSURE_SCALE = 8986.6
 !COORD_VAR = "Layer"
 !#override TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = False
 
-!#override THICKNESSDIFFUSE = True
-!#override HARMONIC_VISC = True
+#override THICKNESSDIFFUSE = True
+#override HARMONIC_VISC = True
 #override LOTW_VISCOUS_ML_FLOOR = True
-!#override FIXED_DEPTH_LOTW_ML = True
+#override FIXED_DEPTH_LOTW_ML = True
 #override AUTO_MASKTABLE = True
