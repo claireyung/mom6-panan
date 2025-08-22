@@ -1,6 +1,6 @@
-experiment_uuid: c570097e-c9a9-4fbb-b3c3-efbed6bd730b
-created: '2025-07-14'
-name: mom6-panan-2-testing-ALE2-1_12_IS-c570097e
+experiment_uuid: 1fbbc948-c561-4ad0-8a08-81dc60e07a39
+created: '2025-08-22'
+name: mom6-panan-2-testing-ALE3-1_12_IS-1fbbc948
 model: MOM6
 url: git@github.com:COSIMA/mom6-panan.git
 contact: Claire Yung
