@@ -28,7 +28,7 @@ SURFACE_PRESSURE_SCALE = 8986.6
 ! Recommended to fix remapping and initialisation
 !#override INIT_BOUNDARY_EXTRAP = True
 #override TRIMMING_USES_REMAPPING = True
-#override TRIM_IC_Z_TOLERANCE = 1.0E-10
+!#override TRIM_IC_Z_TOLERANCE = 1.0E-10
 !#override REMAPPING_USE_OM4_SUBCELLS = False 
 ! Add drag (can increases time before crashing but not always, depending on other parameters)
 #override LINEAR_DRAG = True
@@ -103,3 +103,8 @@ SURFACE_PRESSURE_SCALE = 8986.6
 COORD_FILE = "Vertical_coordinate_125.nc"
 COORD_VAR = "Layer"
 #override TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = False
+
+#override THICKNESSDIFFUSE = True
+#override HARMONIC_VISC = True
+#override LOTW_VISCOUS_ML_FLOOR = True
+#override FIXED_DEPTH_LOTW_ML = True
