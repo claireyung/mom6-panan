@@ -69,3 +69,4 @@ ADD_DIURNAL_SW = False
 #override MAXIMUM_DEPTH = 6500
 #override MINIMUM_DEPTH = 9.9
 
+#override RESTART_CHECKSUMS_REQUIRED = False
