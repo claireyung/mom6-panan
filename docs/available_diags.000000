@@ -2660,21 +2660,21 @@
     ! units: m2 s-1
     ! cell_methods: xh:mean yh:mean zi:point area:mean
     ! variants: {Kd_interface,Kd_interface_xyave}
-"Kd_ePBL"  [Used]
+"Kd_ePBL"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yh, zi
     ! long_name: ePBL diapycnal diffusivity at interfaces
     ! units: m2 s-1
     ! cell_methods: xh:mean yh:mean zi:point area:mean
     ! variants: {Kd_ePBL,Kd_ePBL_xyave}
-"Kd_heat"  [Used] (CMOR equivalent is "difvho")
+"Kd_heat"  [Unused] (CMOR equivalent is "difvho")
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yh, zi
     ! long_name: Total diapycnal diffusivity for heat at interfaces
     ! units: m2 s-1
     ! cell_methods: xh:mean yh:mean zi:point area:mean
     ! variants: {Kd_heat,Kd_heat_xyave,difvho,difvho_xyave}
-"Kd_salt"  [Used] (CMOR equivalent is "difvso")
+"Kd_salt"  [Unused] (CMOR equivalent is "difvso")
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yh, zi
     ! long_name: Total diapycnal diffusivity for salt at interfaces
@@ -2812,7 +2812,7 @@
     ! long_name: Depth integrated heat tendency due to frazil formation
     ! units: W m-2
     ! cell_methods: xh:mean yh:mean area:mean
-"Kd_BBL"  [Used]
+"Kd_BBL"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yh, zi
     ! long_name: Bottom Boundary Layer Diffusivity
@@ -2840,7 +2840,7 @@
     ! units: m2 s-1
     ! cell_methods: xh:mean yh:mean zl:mean area:mean
     ! variants: {Kd_layer,Kd_layer_xyave}
-"Kd_shear"  [Used]
+"Kd_shear"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yh, zi
     ! long_name: Shear-driven Diapycnal Diffusivity at horizontal tracer points
@@ -3288,14 +3288,14 @@
     ! units: degC
     ! cell_methods: xh:mean yh:mean zl:mean area:mean
     ! variants: {temp_post_horzn,temp_post_horzn_xyave}
-"T_adx"  [Used]
+"T_adx"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xq, yh, zl
     ! long_name: Advective (by residual mean) Zonal Flux of Heat
     ! units: W
     ! cell_methods: xq:point yh:sum zl:sum
     ! variants: {T_adx,T_adx_xyave}
-"T_ady"  [Used]
+"T_ady"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xh, yq, zl
     ! long_name: Advective (by residual mean) Meridional Flux of Heat
