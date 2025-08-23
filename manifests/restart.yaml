@@ -1,3 +1,113 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res.nc
+  hashes:
+    binhash: 54a1a160fae6a745b6daf8c7e9d7a65f
+    md5: 327930748c02f1b449881e7a83a8d064
+work/INPUT/MOM.res_1.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_1.nc
+  hashes:
+    binhash: 5a7c46fc5965d4df76ff0162ffdc34f4
+    md5: f146f6e98afff1066b2b65be9710940b
+work/INPUT/MOM.res_10.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_10.nc
+  hashes:
+    binhash: 8d9ca8515752f71b91e414bc8d1ce6b8
+    md5: 5ac9fe8c4269e1b2ad9287cb425cdc47
+work/INPUT/MOM.res_11.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_11.nc
+  hashes:
+    binhash: 64e0e056cec910930a048637c11db0da
+    md5: 4c68f48b027083f75eace90001c5c6aa
+work/INPUT/MOM.res_12.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_12.nc
+  hashes:
+    binhash: f768e9a2b855c84de81b8fffc5a3917a
+    md5: f74440c8b367dc637f67e3e66aea9470
+work/INPUT/MOM.res_13.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_13.nc
+  hashes:
+    binhash: 9d5c0629324ab62c0fc2540020122ce5
+    md5: 034a2006810ce75244b67604e481de0e
+work/INPUT/MOM.res_14.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_14.nc
+  hashes:
+    binhash: 4a3b609869fd6ef53dfad607ce99e065
+    md5: a342527e8519c5ed85cc293910873789
+work/INPUT/MOM.res_15.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_15.nc
+  hashes:
+    binhash: 506971bb157bca7f9637511d40fd4be0
+    md5: 45ffc80f8821ffc9f5d531ed10994a0c
+work/INPUT/MOM.res_16.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_16.nc
+  hashes:
+    binhash: ba3985a0d85a7a3bcd6400e5de8f657d
+    md5: ac016d26aab393f1ff2bb98a77e667b3
+work/INPUT/MOM.res_17.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_17.nc
+  hashes:
+    binhash: 1451479500bcf1efd65e706282efaeec
+    md5: 1cd721eb1c049e9986cb8cde59f742fd
+work/INPUT/MOM.res_2.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_2.nc
+  hashes:
+    binhash: a5ed67a50a074e82b9efc4349c071dbc
+    md5: 97f7a476b0922feeb66004f1c5bff8d7
+work/INPUT/MOM.res_3.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_3.nc
+  hashes:
+    binhash: 2d5419cfa878c2b4ee8e3ae81e2819c6
+    md5: 8104cc08a488ac481c18fcd415933449
+work/INPUT/MOM.res_4.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_4.nc
+  hashes:
+    binhash: 651e41b20cbb9ccde5afd5b2e981a4f5
+    md5: d7ffcfc8c3e5583056436be1cdc3d1d6
+work/INPUT/MOM.res_5.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_5.nc
+  hashes:
+    binhash: f41ec0f0b9f83289ffcd1e536b3c3b88
+    md5: 16bb8896418df80a1a4d9b0f6b509bf5
+work/INPUT/MOM.res_6.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_6.nc
+  hashes:
+    binhash: bd3396dbbf90625399dbb0fdf6662831
+    md5: ffbd637dbf7b966efdadc1add24d3e06
+work/INPUT/MOM.res_7.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_7.nc
+  hashes:
+    binhash: 88e45a2493c4928c1b9fb4968ba7b39f
+    md5: 224a08e3bd3384ab91c686c26c01f7fd
+work/INPUT/MOM.res_8.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_8.nc
+  hashes:
+    binhash: cedf29ddf7cc5859eca005ad98027d85
+    md5: d8a2c82ae6826db0b91651da248b22f5
+work/INPUT/MOM.res_9.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/MOM.res_9.nc
+  hashes:
+    binhash: 1a9ea38866ab95a2b7789c8ba4593625
+    md5: f741f5c972ff9c3480d8e699baeadf98
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/Shelf.res.nc
+  hashes:
+    binhash: 81cd4085a1705fda4d0b62ee82a4ac02
+    md5: 6a29f381b82e6e080758cd9e75af2bad
+work/INPUT/coupler.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/coupler.res
+  hashes:
+    binhash: 8c9c506eb0ec6f55c6b1b0aedd47c098
+    md5: 6fc6505a4d93109099d39aedfbe26690
+work/INPUT/ice_model.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/ice_model.res.nc
+  hashes:
+    binhash: b700ee3273b0bde2c3c3e3b5c84b386a
+    md5: d20cb5cab69b776560d24f25657440a6
+work/INPUT/ice_model.res_1.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85/restart000/ice_model.res_1.nc
+  hashes:
+    binhash: cd1004258cd85002ff915de3aec3cabc
+    md5: 5a035c4db5f59a4fc6293dffff4a49b5
