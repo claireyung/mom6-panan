@@ -14,11 +14,11 @@ panan
 "ice_month",                    1, "months", 1, "days", "time"
 
 
-#"prog",          0,"days", 1, "days", "time"
+"prog",          1,"months", 1, "days", "time"
 "ice",          1,"days", 1, "days", "time"
-#"ice_shelf_model","area_shelf_h","area_shelf_h","ice","all",.false.,"none",2
+"ice_shelf_model","area_shelf_h","area_shelf_h","ice","all",.false.,"none",2
 #"ice_shelf_model","shelf_mass","shelf_mass","ice","all",.false.,"none",2
-#"ice_shelf_model","h_shelf","h_shelf","ice","all",.false.,"none",2
+"ice_shelf_model","h_shelf","h_shelf","ice","all",.false.,"none",2
 #"ice_shelf_model","mass_flux","mass_flux","ice","all",.false.,"none",2
 "ice_shelf_model","melt","melt_rate","ice","all",.false.,"none",2
 "ice_shelf_model","thermal_driving","thermal_driving","ice","all",.false.,"none",2
@@ -32,12 +32,12 @@ panan
 #"ice_shelf_model","tflux_shelf","tflux_shelf","ice","all",.false.,"none",2
 "ice_shelf_model","ustar_shelf","ustar_shelf","ice","all",.false.,"none",2
 
-#"ocean_model","u","u","prog","all",.false.,"none",2
-#"ocean_model","v","v","prog","all",.false.,"none",2
-#"ocean_model","h","h","prog","all",.false.,"none",2
-#"ocean_model","e","e","prog","all",.false.,"none",2
-#"ocean_model","temp","temp","prog","all",.false.,"none",2
-#"ocean_model","salt","salt","prog","all",.false.,"none",2
+"ocean_model","u","u","prog","all",.false.,"none",2
+"ocean_model","v","v","prog","all",.false.,"none",2
+"ocean_model","h","h","prog","all",.false.,"none",2
+"ocean_model","e","e","prog","all",.false.,"none",2
+"ocean_model","temp","temp","prog","all",.false.,"none",2
+"ocean_model","salt","salt","prog","all",.false.,"none",2
 
 
 # Ocean grid-cell volume
@@ -60,7 +60,11 @@ panan
 "ocean_model",   "mlotst",       "mlotst",           "ocean_month",         "all", "mean", "none",2
 #"ocean_model",   "mlotst",       "mlotst",           "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
 # Sea Surface Speed
-#"ocean_model",   "speed",        "speed",            "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
+"ocean_model",   "speed",        "speed",            "ocean_daily%4yr_%3dy",         "all", "mean", "none",2
+# Eta
+"ocean_model",   "e",        "e",            "ocean_daily_z%4yr_%3dy",         "all", "mean", "none",2
+"ocean_model",   "e",        "e",            "ocean_month_z",         "all", "mean", "none",2
+
 
 # (umo,vmo)  =net mass transport from residual mean velocity (model resolved + SGS)
 "ocean_model_rho2","umo",       "umo",              "ocean_month_rho2",   "all", "mean", "none",2
