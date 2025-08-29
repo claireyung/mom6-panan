@@ -1,5 +1,5 @@
 CGRID_ICE_DYNAMICS = True
-DT_ICE_DYNAMICS = 100 !150 !180 !240.0
+DT_ICE_DYNAMICS = 75 !  100 !150 !180 !240.0
 ! fixed bulk salinity of sea ice
 ICE_BULK_SALINITY = 0.0
 ! salinity of sea ice as fraction of salinity
@@ -55,7 +55,7 @@ RECATEGORIZE_ICE = True
 
 SIS_TRACER_ADVECTION_SCHEME = "PPM:H3"
 
-MAXTRUNC = 200
+MAXTRUNC = 20000
 DOCUMENT_FILE = "SIS_parameter_doc"
 
 REPORT_UNUSED_PARAMS = True
