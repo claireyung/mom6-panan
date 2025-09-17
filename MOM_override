@@ -27,8 +27,8 @@ SPONGE = False
 #override MASK_SRESTORE = True
 
 #override FATAL_UNUSED_PARAMS = False
-#override DT = 360 !180 !300 !180 ! 240 ! 180 !150 !600 !720
-#override DT_THERM = 360 !180! 300 ! 180 ! 240 !180 !  150 ! 1200 !1440 !ideally shorten from 3600 due to adele's OBC issue
+#override DT = 450 !180 !300 !180 ! 240 ! 180 !150 !600 !720
+#override DT_THERM = 450 !180! 300 ! 180 ! 240 !180 !  150 ! 1200 !1440 !ideally shorten from 3600 due to adele's OBC issue
 !#override DEBUG = True
 
 !8k specific params
