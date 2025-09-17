@@ -6,6 +6,11 @@ work/INPUT/ACCESS-OM2_IC_bfilled_smoothedland.nc:
   hashes:
     binhash: 000e6d518a7c9d6b37ee583fd3af564a
     md5: 91bc9681d5267ea5ac6e1e9aa4986be3
+work/INPUT/ACCESS-OM2_IC_bfilled_smoothedland_01abovefreezingincavity.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km/ACCESS-OM2_IC_bfilled_smoothedland_01abovefreezingincavity.nc
+  hashes:
+    binhash: 35d066e370a5ecfa6e1bda6397e2fdc9
+    md5: 91bc9681d5267ea5ac6e1e9aa4986be3
 work/INPUT/RYF.q_10.1984_1985.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-3/RYF.q_10.1984_1985.nc
   hashes:

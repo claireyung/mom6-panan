@@ -2,7 +2,7 @@ format: yamanifest
 version: 1.0
 ---
 work/MOM6-SIS2-c478543:
-  fullpath: /scratch/x77/cy8964/mom6/setup-mom6-nci-executable/MOM6-SIS2-c478543
+  fullpath: /g/data/x77/cy8964/mom6/MOM6-SIS2-c478543
   hashes:
-    binhash: 0d404d38b9ae94621c603538b1f3525a
+    binhash: ba01f985cbec64f8f43df0ed73329fca
     md5: 29c0acc15a1035db3b0d1be8ec79fa5a
