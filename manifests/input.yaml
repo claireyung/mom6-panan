@@ -9,8 +9,8 @@ work/INPUT/ACCESS-OM2_IC_bfilled_smoothedland.nc:
 work/INPUT/ACCESS-OM2_IC_bfilled_smoothedland_01abovefreezingincavity.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km/ACCESS-OM2_IC_bfilled_smoothedland_01abovefreezingincavity.nc
   hashes:
-    binhash: 35d066e370a5ecfa6e1bda6397e2fdc9
-    md5: 91bc9681d5267ea5ac6e1e9aa4986be3
+    binhash: bb3c8f1dc6ea13beeba7db97308577cc
+    md5: 691047d199469937177ffec7e2f4aec9
 work/INPUT/RYF.q_10.1984_1985.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-3/RYF.q_10.1984_1985.nc
   hashes:
@@ -276,6 +276,11 @@ work/INPUT/ocean_vgrid_cropped.nc:
   hashes:
     binhash: 17315f73743449de6cd80e40c6a1eb17
     md5: 66f71f2b24bd00b1c220787505e0106e
+work/INPUT/salt_restore_mask.nc:
+  fullpath: /g/data/x77/cy8964/mom6/input/input-8km/150925/salt_restore_mask.nc
+  hashes:
+    binhash: 4e303ef4f34a8ece21f142585c6401d3
+    md5: a76fbe9904cd2d4fa48c99b4afbe1f10
 work/INPUT/topog_Charrassin_open_cavity_noGL5m_new190825.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
   hashes:
