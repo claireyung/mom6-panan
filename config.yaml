@@ -20,6 +20,7 @@ input:
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_regridded_cropped.nc
     - /g/data/x77/cy8964/mom6/input/input-8km/ACCESS-OM2_IC_bfilled_smoothedland.nc
     - /g/data/x77/cy8964/mom6/input/input-8km/ACCESS-OM2_IC_bfilled_smoothedland_01abovefreezingincavity.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km/salt_restore_interpolated_nearest.nc
     - /g/data/x77/cy8964/mom6/input/input-8km/150925/salt_restore_mask.nc
       #    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc
