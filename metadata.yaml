@@ -1,6 +1,6 @@
-experiment_uuid: 6345ab85-8a9c-4af5-a217-4552a89c771b
-created: '2025-08-23'
-name: mom6-panan-2-testing-ALE-ACCESSOM2IC-1_12_IS_ALE_working_faster-6345ab85
+experiment_uuid: 8749d501-4657-4bba-9798-30ee40a802b1
+created: '2025-09-17'
+name: mom6-panan-2-testing-ALE-coldIC-1_12_IS_ALE_working_faster-8749d501
 model: MOM6
 url: git@github.com:COSIMA/mom6-panan.git
 contact: Claire Yung
