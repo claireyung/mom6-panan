@@ -1,6 +1,6 @@
-experiment_uuid: 8749d501-4657-4bba-9798-30ee40a802b1
+experiment_uuid: 4674602f-ca7b-4f3d-9dcf-595263122865
 created: '2025-09-17'
-name: mom6-panan-2-testing-ALE-coldIC-1_12_IS_ALE_working_faster-8749d501
+name: mom6-panan-2-testing-ALE-coldIC-1_12_IS_ALE_working_faster-4674602f
 model: MOM6
 url: git@github.com:COSIMA/mom6-panan.git
 contact: Claire Yung
