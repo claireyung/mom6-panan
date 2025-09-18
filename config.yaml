@@ -1,8 +1,8 @@
 # change to your project with compute time available
-project: g40
+project: x77
 queue: normal
 walltime: 10:00:00
-jobname: mom6_panan_12
+jobname: mom6_panan_12sisib
 #ncpus: 962
 #jobfs: 10GB
 #ncpus: 1778
@@ -20,6 +20,10 @@ input:
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_regridded_cropped.nc
     - /g/data/x77/cy8964/mom6/input/input-8km/ACCESS-OM2_IC_bfilled_smoothedland.nc
       #    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/WOA_IC_bfilled_smoothedland_pottemp.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km/salt_restore_interpolated_nearest.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km/150925/salt_restore_mask.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km/bottom_roughness_extended_into_cavity.nc
+    - /g/data/x77/cy8964/mom6/input/input-8km/tideamp_Charrassin_cavity_cropped.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_sea_ice_from_iceelev_no_edits_new190825.nc
     - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/topog_Charrassin_open_cavity_noGL5m_new190825.nc
       #    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/ice_thickness_Charrassin_regridded_cropped_add_area_where_iceelev_noGL5m_new190825.nc
@@ -28,6 +32,7 @@ input:
       #    - /g/data/ik11/inputs/mom6/regrid_runoff/
     - /g/data/ik11/inputs/JRA-55/RYF/v1-3/
     - /g/data/ik11/inputs/mom6/panan-01/
+    - /g/data/x77/cy8964/mom6/input/input-8km-SIS2/JRA_1_12_iceberg_runoff.nc
 exe: /scratch/x77/cy8964/mom6/setup-mom6-nci-executable/MOM6-SIS2-c478543
 #/g/data/ik11/inputs/mom6/bin/symmetric_FMS2-e7d09b7
 #/g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-aledbg-38a7d55

@@ -18,3 +18,4 @@
 "ICE", "drdt", "", "", "none", 10.0
 "LND", "rough_mom", "", "", "none", 0.01
 "LND", "rough_heat", "", "", "none", 0.1
+"ICE", "runoff", "friver", "./INPUT/JRA_1_12_iceberg_runoff.nc", "none", 1.0
