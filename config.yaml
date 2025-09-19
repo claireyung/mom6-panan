@@ -2,7 +2,7 @@
 project: x77
 queue: normal
 walltime: 10:00:00
-jobname: mom6_panan_12
+jobname: mom6_panan_12cold
 #ncpus: 962
 #jobfs: 10GB
 #ncpus: 1778
