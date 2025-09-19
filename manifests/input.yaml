@@ -9,8 +9,8 @@ work/INPUT/ACCESS-OM2_IC_bfilled_smoothedland.nc:
 work/INPUT/JRA_1_12_iceberg_runoff.nc:
   fullpath: /g/data/x77/cy8964/mom6/input/input-8km-SIS2/JRA_1_12_iceberg_runoff.nc
   hashes:
-    binhash: 8d77590782a34f62aaa9ff2dfcefb9c2
-    md5: 550e43b7f97d88ae67d48c743b960e9b
+    binhash: 68494c6697ced3af64a6ed7f7945b3c6
+    md5: d49f06947a59789c37a8cc485a3d0040
 work/INPUT/RYF.q_10.1984_1985.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-3/RYF.q_10.1984_1985.nc
   hashes:
